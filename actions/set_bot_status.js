@@ -90,7 +90,7 @@ action: function(cache) {
 	const data = cache.actions[cache.index];
 	const status = parseInt(data.status);
 	let targetStatus = '';
-	if(status >= 3) {
+	if(status >= 0) {
 		switch(status) {
 			case 0:
 				targetStatus = 'online';
